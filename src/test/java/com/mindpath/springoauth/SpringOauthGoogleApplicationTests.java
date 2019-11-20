@@ -1,4 +1,4 @@
-package com.mindpath.tech.springoauthgoogle;
+package com.mindpath.springoauth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
