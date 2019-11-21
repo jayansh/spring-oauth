@@ -11,6 +11,7 @@ public class OAuth2UserInfoFactory {
         if(registrationId.equalsIgnoreCase(AuthProvider.google.toString())) {
             return new GoogleOAuth2UserInfo(attributes);
         //} else if registrationId equals AuthProvider.facebook return FacebookOAuth2UserInfo
+        //} else if registrationId equals AuthProvider.github return LinkedinOAuth2UserInfo
     	//} else if registrationId equals AuthProvider.github return GithubOAuth2UserInfo
         } else {
             throw new OAuth2AuthenticationProcessingException("Sorry! Login with " + registrationId + " is not supported yet.");
